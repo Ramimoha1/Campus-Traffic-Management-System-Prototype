@@ -1,0 +1,100 @@
+<!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
+<jasperReport name="Citation" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="128e6983-39fa-4d88-b915-dde97c079c9e">
+    <background splitType="Stretch"/>
+    <detail>
+        <band height="802" splitType="Prevent">
+            <element kind="frame" uuid="b43d4e80-55ed-47c0-82fb-62ab3a776e4a" mode="Transparent" x="-20" y="-20" width="595" height="180" backcolor="#FFFFFF">
+                <element kind="staticText" uuid="fdec241f-ee0e-4956-b749-a13c1900d74d" x="440" y="80" width="89" height="40" forecolor="#030000" fontName="SansSerif" fontSize="13.0" bold="true">
+                    <text><![CDATA[Serial No.]]></text>
+                </element>
+                <element kind="staticText" uuid="ee0518f3-469e-4ce2-824a-d2006f23a0ea" x="180" y="120" width="250" height="39" forecolor="#030000" fontName="Serif" fontSize="29.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[Traffic Citation]]></text>
+                </element>
+                <element kind="image" uuid="d0370f16-2de4-4e66-8c38-60dfe8b72e1a" x="192" y="47" width="211" height="86">
+                    <expression><![CDATA["https://upload.wikimedia.org/wikipedia/commons/c/cb/UTM-LOGO-FULL.png"]]></expression>
+                </element>
+                <element kind="staticText" uuid="614582a4-0af2-4640-9952-909271b415b3" x="30" y="271" width="110" height="39" forecolor="#030000" fontName="Serif" fontSize="22.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[Name:]]></text>
+                </element>
+                <element kind="staticText" uuid="66277c01-b707-42ef-a7e8-b87f92c9d5ce" x="30" y="310" width="110" height="39" forecolor="#030000" fontName="Serif" fontSize="22.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[Year:]]></text>
+                </element>
+                <element kind="staticText" uuid="5a3943bf-6390-44a5-8fba-ac039c9eea08" x="9" y="708" width="110" height="39" forecolor="#030000" fontName="Serif" fontSize="22.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[Place:]]></text>
+                </element>
+                <element kind="staticText" uuid="c582b2b9-5977-408a-b090-3a83ca11f017" x="9" y="750" width="110" height="39" forecolor="#030000" fontName="Serif" fontSize="22.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[Time:]]></text>
+                </element>
+                <element kind="staticText" uuid="b8a1e181-2834-442c-b85f-092da6b4023e" x="310" y="271" width="110" height="39" forecolor="#030000" fontName="Serif" fontSize="22.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[Matric:]]></text>
+                </element>
+                <element kind="staticText" uuid="69f1b7ed-0563-47c5-8f2b-1785ec852759" x="310" y="310" width="110" height="39" forecolor="#030000" fontName="Serif" fontSize="22.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[Faculty:]]></text>
+                </element>
+                <element kind="line" uuid="36c9594e-d43a-460a-a5bb-f39220cecb16" x="120" y="302" width="160" height="1">
+                    <pen lineStyle="Dotted"/>
+                </element>
+                <element kind="line" uuid="fc292b12-8616-420c-b369-00ed3ca2c168" x="120" y="342" width="160" height="1">
+                    <pen lineStyle="Dotted"/>
+                </element>
+                <element kind="line" uuid="852dbefd-b954-44e4-a38f-7d254dae4b39" x="99" y="740" width="160" height="1">
+                    <pen lineStyle="Dotted"/>
+                </element>
+                <element kind="line" uuid="e528e28f-5a92-47cd-9f63-095400158757" x="99" y="780" width="160" height="1">
+                    <pen lineStyle="Dotted"/>
+                </element>
+                <element kind="line" uuid="0a7fa882-20c0-4f3b-b8b0-b2a39ba5e859" x="410" y="302" width="160" height="1">
+                    <pen lineStyle="Dotted"/>
+                </element>
+                <element kind="line" uuid="dde589af-775d-46e8-8ebc-f521cdf42003" x="410" y="342" width="160" height="1">
+                    <pen lineStyle="Dotted"/>
+                </element>
+                <element kind="staticText" uuid="7d8481e9-02ab-432b-b51e-21a8e7eb947f" x="170" y="221" width="250" height="39" forecolor="#030000" fontName="Serif" fontSize="25.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[Offender information]]></text>
+                </element>
+                <element kind="line" uuid="bb83d010-d86d-41c5-91db-9b0a6490e35b" x="0" y="380" width="579" height="1">
+                    <pen lineStyle="Dotted"/>
+                </element>
+                <element kind="line" uuid="43dfba51-3df6-4482-8dbe-161b4122c928" x="99" y="692" width="160" height="1">
+                    <pen lineStyle="Dotted"/>
+                </element>
+                <element kind="staticText" uuid="c2ea4a85-8af5-40b7-b4df-b31d788c7da0" x="0" y="660" width="110" height="39" forecolor="#030000" fontName="Serif" fontSize="22.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[Offence:]]></text>
+                </element>
+                <element kind="staticText" uuid="7edaa111-3a76-4e59-84c6-8b080671653c" x="164" y="390" width="250" height="39" forecolor="#030000" fontName="Serif" fontSize="25.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[Offence]]></text>
+                </element>
+                <element kind="staticText" uuid="1a45b507-2e1e-44fa-81be-79653a32e889" x="250" y="620" width="110" height="39" forecolor="#030000" fontName="Artifakt Element Thin" fontSize="15.0" bold="false" italic="false" hTextAlign="Center">
+                    <text><![CDATA[offence image]]></text>
+                </element>
+                <element kind="textField" uuid="806133d2-fc09-4039-b3e3-357832f1a75d" x="120" y="280" width="180" height="20" fontSize="13.0">
+                    <expression><![CDATA["Student name"]]></expression>
+                </element>
+                <element kind="textField" uuid="fedf4395-4198-4957-80ea-dc3a7c67a2ad" x="120" y="319" width="180" height="20" fontSize="13.0">
+                    <expression><![CDATA["Year Student"]]></expression>
+                </element>
+                <element kind="textField" uuid="a01812fb-448f-403f-a274-f2fdbfc1b4ae" x="500" y="80" width="79" height="70" fontSize="9.0">
+                    <expression><![CDATA["serial number "]]></expression>
+                </element>
+                <element kind="textField" uuid="35274f5e-0d5d-4c35-96bb-029126533475" x="410" y="319" width="180" height="20" fontSize="13.0">
+                    <expression><![CDATA["Faculty"]]></expression>
+                </element>
+                <element kind="textField" uuid="6160ea6f-35c7-4ea7-8927-2a5febd0b671" x="410" y="280" width="180" height="20" fontSize="13.0">
+                    <expression><![CDATA["Matric"]]></expression>
+                </element>
+            </element>
+            <element kind="textField" uuid="2d89bb9a-ad90-4b0e-8202-dccc7b0133ab" x="90" y="649" width="180" height="20" fontSize="13.0">
+                <expression><![CDATA["Offence Type"]]></expression>
+            </element>
+            <element kind="textField" uuid="320f2f5f-0e81-43e7-8405-b23d17adc295" x="79" y="697" width="180" height="20" fontSize="13.0">
+                <expression><![CDATA["place (address)"]]></expression>
+            </element>
+            <element kind="textField" uuid="4a6af2c5-b014-44ff-a26c-077842ab6c0a" x="80" y="739" width="180" height="20" fontSize="13.0">
+                <expression><![CDATA["Time"]]></expression>
+            </element>
+            <element kind="image" uuid="f914bf8a-ce32-48a7-8049-f7a5f66bf130" x="154" y="420" width="263" height="160">
+                <expression><![CDATA[""]]></expression>
+            </element>
+        </band>
+    </detail>
+</jasperReport>

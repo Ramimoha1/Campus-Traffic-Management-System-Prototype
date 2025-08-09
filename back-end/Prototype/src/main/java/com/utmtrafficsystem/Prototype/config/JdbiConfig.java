@@ -1,6 +1,6 @@
 package com.utmtrafficsystem.Prototype.config;
 
-import com.example.demo.repository.PhotoRepository;
+import com.utmtrafficsystem.Prototype.repository.CitationRepository;
 import org.jdbi.v3.core.Jdbi;
 import org.jdbi.v3.sqlobject.SqlObjectPlugin;
 import org.springframework.context.annotation.Bean;
@@ -17,8 +17,8 @@ public class JdbiConfig {
         }
 
         @Bean
-        public PhotoRepository photoRepository(Jdbi jdbi) {
-            return jdbi.onDemand(PhotoRepository.class);
+        public CitationRepository citationRepository(Jdbi jdbi) {
+            return jdbi.onDemand(CitationRepository.class);
         }
 }
 
